@@ -1,0 +1,33 @@
+.App {
+  text-align: center;
+  margin: 0;
+}
+
+div {
+  margin-top: 30px;
+}
+
+button {
+  font-size: 20px;
+  padding: 3px 26px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.small-btn {
+  padding: 3px 0;
+  width: 60px;
+}
+
+.ib-elem-parent {
+  font-size: 0;
+}
+
+.ib-elem-parent > * {
+  margin: 0 8px;
+  font-size: 20px;
+}
+
+.reset-btn {
+  background: #ffebd8;
+}
